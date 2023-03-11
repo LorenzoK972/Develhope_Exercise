@@ -1,4 +1,4 @@
-package javabasics._9;
+package Develhope_Exercise.javabasics._9;
 
 public class Main {
     public static void main(String[] args) {
