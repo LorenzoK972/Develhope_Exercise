@@ -75,7 +75,7 @@ public class Main {
      * A Example: fori
      *
      * Q1: A user inputs their actions into an ATM, they can withdraw, deposit, check balance or exit. What loop should we use?
-     * A1: while
+     * A1: do while
      *
      * Q2: We have a list of 1000 users to send emails to
      * A2: for each loop
