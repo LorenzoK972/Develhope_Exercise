@@ -84,7 +84,7 @@ public class Exercises {
      *    Answer: map
      *
      *    3 - You want to store the countries in the world in order of age
-     *    Answer: map
+     *    Answer: sorted Map
      *
      *    4 - You want to store the products available for purchase in an online store, along with their corresponding prices.
      *    Answer: map
@@ -96,19 +96,19 @@ public class Exercises {
      *    Answer: map
      *
      *    7 - You want to store the books in a library, along with their authors and publication dates.
-     *    Answer:
+     *    Answer: list
      *
      *    8 - You want to store the courses offered at a university, along with the professors teaching each course.
-     *    Answer:
+     *    Answer: map <string, List<String>>
      *
      *    9 - You want to store the movies in a movie rental store, along with their ratings and release dates.
-     *    Answer:
+     *    Answer: list
      *
      *    10 - You want to store the flights available for booking on an airline, along with their destinations and departure times.
-     *    Answer:
+     *    Answer: map
      *
      *    11 - You want to store the articles on a news website, along with their titles and publication dates.
-     *    Answer:
+     *    Answer: map
      *
      *    12 - You want to store the songs in a music streaming service, along with their artists and album names.
      *    Answer:
