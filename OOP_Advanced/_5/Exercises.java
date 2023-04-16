@@ -46,7 +46,7 @@ public class Exercises {
 
     /**
      * 3:
-     *
+     *  
      * Write a try-catch block that attempts to parse a string as an integer.
      *
      * In the catch block, print a message that informs the user that the input was not a valid integer.
