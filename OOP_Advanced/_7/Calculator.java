@@ -1,4 +1,4 @@
-package javaadvanced._7;
+package Develhope_Exercise.OOP_Advanced._7;
 
 // You can change any code in this class if you think there is a bug!
 public class Calculator {
@@ -11,7 +11,7 @@ public class Calculator {
     }
 
     public int multiply(int a, int b) {
-        return a * a;
+        return a * b;
     }
 
     public int divide(int a, int b) {
@@ -19,7 +19,7 @@ public class Calculator {
     }
 
     public double power(double base, double exponent) {
-        return Math.pow(exponent, base);
+        return Math.pow(base, exponent);
     }
 }
 

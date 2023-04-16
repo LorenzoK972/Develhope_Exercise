@@ -1,7 +1,8 @@
-package javaadvanced._7;
+package Develhope_Exercise.OOP_Advanced._7;
 
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Named;
 import org.junit.jupiter.api.Test;
 
 class CalculatorTest {
@@ -21,6 +22,12 @@ class CalculatorTest {
     void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+        Calculator calculator = new Calculator();
+        int num1 = 10;
+        int num2 = 5;
+        Assertions.assertTrue(calculator.add(num1, num2) >= 0);
+        Assertions.assertTrue(calculator.subtract(num1, num2) >= 0);
+        Assertions.assertTrue(calculator.subtract(num1, num2) <= 0);
     }
 
     /**
@@ -41,6 +48,8 @@ class CalculatorTest {
 
         Calculator calculator = new Calculator();
         Assertions.assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0));
+        Assertions.assertTrue(calculator.multiply(10, 32) > 100);
+        Assertions.assertTrue(calculator.divide(10, 32) < 1);
     }
 
     /**
@@ -58,6 +67,10 @@ class CalculatorTest {
     @Test
     void exercise3() {
         System.out.println("\nExercise 3: ");
-        // Your code here
+
+        Calculator calculator = new Calculator();
+        Assertions.assertTrue(calculator.power(0,0) == 1);
+        Assertions.assertTrue(calculator.power(3, 2) == 9);
+        Assertions.assertTrue(calculator.power(-3, -2) == 9);
     }
 }
