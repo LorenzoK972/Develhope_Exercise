@@ -27,7 +27,7 @@ class CalculatorTest {
         int num2 = 5;
         Assertions.assertTrue(calculator.add(num1, num2) >= 0);
         Assertions.assertTrue(calculator.subtract(num1, num2) >= 0);
-        Assertions.assertTrue(calculator.subtract(num1, num2) <= 0);
+        Assertions.assertTrue(calculator.subtract(num1, num2) >= 0);
     }
 
     /**

@@ -3,7 +3,7 @@ package Develhope_Exercise.OOP_Advanced._7;
 // You can change any code in this class if you think there is a bug!
 public class Calculator {
     public int add(int a, int b) {
-        return a - b;
+        return a + b;
     }
 
     public int subtract(int a, int b) {
