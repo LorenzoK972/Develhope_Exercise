@@ -62,15 +62,7 @@ public class Exercises {
         System.out.println("\nExercise 3: ");
         // Your code here
         for (TrafficLight light : TrafficLight.values()) {
-            if (light.getRightOfWay() == true) {
-                if (light.getStop() == true) {
-                    System.out.println("YELLOW: Clear the road!\n Next state: RED");
-                } else {
-                    System.out.println("GREEN: Go!\n Next state: YELLOW");
-                }
-            } else if (light.getStop() == true) {
-                System.out.println("RED: Stop before the line! \n Next state: GREEN");
-            }
+            TrafficLight.TrafficLight(light);
         }
     }       //Si poteva fare anche con un semplice switch ma ci ho pensato dopo
 
