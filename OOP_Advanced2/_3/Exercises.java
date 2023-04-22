@@ -20,7 +20,7 @@ public class Exercises {
         System.out.println("\nExercise 1: ");
         // Your code here
         Person person = new Person("Franco", 30, 154);
-        System.out.println(person.toString());
+        System.out.println(person);
     }
 
     /**
